@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 [assembly:AssemblyKeyFile("mykey.snk")]
 [assembly:AssemblyInformationalVersion("This is a testing context menu.")]
 
-namespace testDF
+namespace ContextMenuTest
 {
     [ComVisible(true)]
     [COMServerAssociation(AssociationType.DirectoryBackground)]

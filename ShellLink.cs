@@ -4,8 +4,9 @@ using System.Text;
 using System.Runtime.InteropServices;
 using ComTypes = System.Runtime.InteropServices.ComTypes;
 
-namespace testDF
+namespace ContextMenuTest
 {
+    /// <remarks>引用自<see href="https://dotblogs.com.tw/danking/2013/11/19/130417">這篇文章</see>。</remarks>
     public class ShellLink : IDisposable
     {
         [ComImport, InterfaceType(ComInterfaceType.InterfaceIsIUnknown), Guid("000214F9-0000-0000-C000-000000000046")]
